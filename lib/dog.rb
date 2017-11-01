@@ -10,6 +10,7 @@ end
 
 def bark
   @bark
+  puts "woof!"
 end
 
 def name=(name)
