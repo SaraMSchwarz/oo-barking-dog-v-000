@@ -9,6 +9,7 @@ def  bark=(bark)
 end
 
 def bark
+  puts "Woof!"
   @bark
 end
   def name=(name)
@@ -22,3 +23,4 @@ end
 
 fido = Dog.new
 fido.name = "Fido"
+fido.bark
